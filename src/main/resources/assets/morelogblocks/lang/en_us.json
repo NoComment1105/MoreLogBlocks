@@ -1,0 +1,19 @@
+{
+  "block.morelogblocks.oak_log_stairs": "Oak Log Stairs",
+  "block.morelogblocks.dark_oak_log_stairs": "Dark Oak Log Stairs",
+  "block.morelogblocks.acacia_log_stairs": "Acacia Log Stairs",
+  "block.morelogblocks.birch_log_stairs": "Birch Log Stairs",
+  "block.morelogblocks.crimson_stem_stairs": "Crimson Stem Stairs",
+  "block.morelogblocks.jungle_log_stairs": "Jungle Log Stairs",
+  "block.morelogblocks.spruce_log_stairs": "Spruce Log Stairs",
+  "block.morelogblocks.warped_stem_stairs": "Warped Stem Stairs",
+
+  "block.morelogblocks.oak_log_slab": "Oak Log slab",
+  "block.morelogblocks.dark_oak_log_slab": "Dark Oak Log slab",
+  "block.morelogblocks.acacia_log_slab": "Acacia Log slab",
+  "block.morelogblocks.birch_log_slab": "Birch Log slab",
+  "block.morelogblocks.crimson_stem_slab": "Crimson Stem slab",
+  "block.morelogblocks.jungle_log_slab": "Jungle Log slab",
+  "block.morelogblocks.spruce_log_slab": "Spruce Log slab",
+  "block.morelogblocks.warped_stem_slab": "Warped Stem slab"
+}

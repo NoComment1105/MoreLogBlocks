@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "morelogblocks",
+  "version": "${version}",
+
+  "name": "MoreLogBlocks",
+  "description": "Make slabs and stairs out of logs!",
+  "authors": [
+    "NoComment1105"
+  ],
+  "contact": {
+    "homepage": "https://nocomment1105.github.io",
+    "sources": "https://github.com/NoComment1105/MoreLogBlocks",
+    "issues": "https://github.com/NoComment1105/MoreLogBlocks/issues"
+  },
+
+  "license": "LGPL-3.0",
+  "icon": "assets/morelogblocks/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.nocomment1105.morelogblocks.MoreLogBlocks"
+    ]
+  },
+  "mixins": [],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+}
