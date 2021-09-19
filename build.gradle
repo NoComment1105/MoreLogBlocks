@@ -103,7 +103,6 @@ publishing {
 		versionNumber = "More Log Variants ${project.version}"
 		versionName = "[1.17.1] v${project.version}"
 		versionType = 'RELEASE'
-		changelog = file('changelog.md')
 		uploadFile = remapJar
 		addGameVersion('1.17')
 		addGameVersion('1.17.1')
