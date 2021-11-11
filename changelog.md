@@ -1,3 +1,2 @@
-## Version 1
-* Adds Stair Slab variants of Logs, Wood and the stripped alternative
-  * This also applies to Crimson and Warped Stem + Hyphae
+## Version 1.0.2
+* Fix blocks not being able to be broken with fist :concern:
