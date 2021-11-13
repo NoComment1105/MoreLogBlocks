@@ -19,7 +19,6 @@ package io.github.nocomment1105.morelogblocks.registry;
 
 import io.github.nocomment1105.morelogblocks.block.MoreLogStairBlock;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.MapColor;
 import net.minecraft.block.Material;
@@ -39,233 +38,233 @@ public class BlockRegistry {
     Follows Stair Slab Stair Slab format
      */
     public static final Block OAK_LOG_STAIRS = new MoreLogStairBlock(
-            OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.OAK_TAN).breakByTool(FabricToolTags.AXES, 0)
+            OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.OAK_TAN)
             .strength(2.0f).sounds(BlockSoundGroup.WOOD));
     public static final Block OAK_LOG_SLAB = new SlabBlock(FabricBlockSettings.of(
-            Material.WOOD, MapColor.OAK_TAN).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+            Material.WOOD, MapColor.OAK_TAN).strength(2.0f)
             .sounds(BlockSoundGroup.WOOD));
 
     public static final Block SPRUCE_LOG_STAIRS = new MoreLogStairBlock(
-            SPRUCE_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.SPRUCE_BROWN).breakByTool(FabricToolTags.AXES, 0 )
+            SPRUCE_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.SPRUCE_BROWN)
             .strength(2.0f).sounds(BlockSoundGroup.WOOD));
     public static final Block SPRUCE_LOG_SLAB = new SlabBlock(FabricBlockSettings.of(
-            Material.WOOD, MapColor.SPRUCE_BROWN).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+            Material.WOOD, MapColor.SPRUCE_BROWN).strength(2.0f)
             .sounds(BlockSoundGroup.WOOD));
 
     public static final Block BIRCH_LOG_STAIRS = new MoreLogStairBlock(
-            BIRCH_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.PALE_YELLOW).breakByTool(FabricToolTags.AXES, 0 )
+            BIRCH_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.PALE_YELLOW)
             .strength(2.0f).sounds(BlockSoundGroup.WOOD));
     public static final Block BIRCH_LOG_SLAB = new SlabBlock(FabricBlockSettings.of(
-            Material.WOOD, MapColor.PALE_YELLOW).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+            Material.WOOD, MapColor.PALE_YELLOW).strength(2.0f)
             .sounds(BlockSoundGroup.WOOD));
 
     public static final Block JUNGLE_LOG_STAIRS = new MoreLogStairBlock(
-            JUNGLE_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.DIRT_BROWN).breakByTool(FabricToolTags.AXES, 0 ).
+            JUNGLE_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.DIRT_BROWN).
             requiresTool().strength(2.0f).sounds(BlockSoundGroup.WOOD));
     public static final Block JUNGLE_LOG_SLAB = new SlabBlock(FabricBlockSettings.of(
-            Material.WOOD, MapColor.DIRT_BROWN).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+            Material.WOOD, MapColor.DIRT_BROWN).strength(2.0f)
             .sounds(BlockSoundGroup.WOOD));
 
     public static final Block ACACIA_LOG_STAIRS = new MoreLogStairBlock(
-            ACACIA_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.ORANGE).breakByTool(FabricToolTags.AXES, 0 )
+            ACACIA_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.ORANGE)
             .strength(2.0f).sounds(BlockSoundGroup.WOOD));
     public static final Block ACACIA_LOG_SLAB = new SlabBlock(FabricBlockSettings.of(
-            Material.WOOD, MapColor.ORANGE).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+            Material.WOOD, MapColor.ORANGE).strength(2.0f)
             .sounds(BlockSoundGroup.WOOD));
 
     public static final Block DARK_OAK_LOG_STAIRS = new MoreLogStairBlock(
-            DARK_OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.BROWN).breakByTool(FabricToolTags.AXES, 0 )
+            DARK_OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.BROWN)
             .strength(2.0f).sounds(BlockSoundGroup.WOOD));
     public static final Block DARK_OAK_LOG_SLAB = new SlabBlock(FabricBlockSettings.of(
-            Material.WOOD, MapColor.BROWN).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+            Material.WOOD, MapColor.BROWN).strength(2.0f)
             .sounds(BlockSoundGroup.WOOD));
 
     public static final Block CRIMSON_STEM_STAIRS = new MoreLogStairBlock(
-            OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.NETHER_WOOD, MapColor.DULL_PINK).breakByTool(FabricToolTags.AXES, 0 )
+            OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.NETHER_WOOD, MapColor.DULL_PINK)
             .strength(2.0f).sounds(BlockSoundGroup.NETHER_STEM));
     public static final Block CRIMSON_STEM_SLAB = new SlabBlock(FabricBlockSettings.of(
-            Material.NETHER_WOOD, MapColor.DULL_PINK).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+            Material.NETHER_WOOD, MapColor.DULL_PINK).strength(2.0f)
             .sounds(BlockSoundGroup.NETHER_STEM));
 
     public static final Block WARPED_STEM_STAIRS = new MoreLogStairBlock(
-            OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.NETHER_WOOD, MapColor.DARK_AQUA).breakByTool(FabricToolTags.AXES, 0 )
+            OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.NETHER_WOOD, MapColor.DARK_AQUA)
             .strength(2.0f).sounds(BlockSoundGroup.NETHER_STEM));
     public static final Block WARPED_STEM_SLAB = new SlabBlock(FabricBlockSettings.of(
-            Material.NETHER_WOOD, MapColor.DARK_AQUA).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+            Material.NETHER_WOOD, MapColor.DARK_AQUA).strength(2.0f)
             .sounds(BlockSoundGroup.NETHER_STEM));
 
     // Stripped Logs
 
     public static final Block STRIPPED_OAK_LOG_STAIRS = new MoreLogStairBlock(
-            OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.OAK_TAN).breakByTool(FabricToolTags.AXES, 0)
+            OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.OAK_TAN)
             .strength(2.0f).sounds(BlockSoundGroup.WOOD));
     public static final Block STRIPPED_OAK_LOG_SLAB = new SlabBlock(FabricBlockSettings.of(
-                    Material.WOOD, MapColor.OAK_TAN).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+                    Material.WOOD, MapColor.OAK_TAN).strength(2.0f)
             .sounds(BlockSoundGroup.WOOD));
 
     public static final Block STRIPPED_SPRUCE_LOG_STAIRS = new MoreLogStairBlock(
-            SPRUCE_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.SPRUCE_BROWN).breakByTool(FabricToolTags.AXES, 0 )
+            SPRUCE_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.SPRUCE_BROWN)
             .strength(2.0f).sounds(BlockSoundGroup.WOOD));
     public static final Block STRIPPED_SPRUCE_LOG_SLAB = new SlabBlock(FabricBlockSettings.of(
-                    Material.WOOD, MapColor.SPRUCE_BROWN).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+                    Material.WOOD, MapColor.SPRUCE_BROWN).strength(2.0f)
             .sounds(BlockSoundGroup.WOOD));
 
     public static final Block STRIPPED_BIRCH_LOG_STAIRS = new MoreLogStairBlock(
-            BIRCH_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.PALE_YELLOW).breakByTool(FabricToolTags.AXES, 0 )
+            BIRCH_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.PALE_YELLOW)
             .strength(2.0f).sounds(BlockSoundGroup.WOOD));
     public static final Block STRIPPED_BIRCH_LOG_SLAB = new SlabBlock(FabricBlockSettings.of(
-                    Material.WOOD, MapColor.PALE_YELLOW).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+                    Material.WOOD, MapColor.PALE_YELLOW).strength(2.0f)
             .sounds(BlockSoundGroup.WOOD));
 
     public static final Block STRIPPED_JUNGLE_LOG_STAIRS = new MoreLogStairBlock(
-            JUNGLE_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.DIRT_BROWN).breakByTool(FabricToolTags.AXES, 0 ).
+            JUNGLE_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.DIRT_BROWN).
             requiresTool().strength(2.0f).sounds(BlockSoundGroup.WOOD));
     public static final Block STRIPPED_JUNGLE_LOG_SLAB = new SlabBlock(FabricBlockSettings.of(
-                    Material.WOOD, MapColor.DIRT_BROWN).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+                    Material.WOOD, MapColor.DIRT_BROWN).strength(2.0f)
             .sounds(BlockSoundGroup.WOOD));
 
     public static final Block STRIPPED_ACACIA_LOG_STAIRS = new MoreLogStairBlock(
-            ACACIA_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.ORANGE).breakByTool(FabricToolTags.AXES, 0 )
+            ACACIA_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.ORANGE)
             .strength(2.0f).sounds(BlockSoundGroup.WOOD));
     public static final Block STRIPPED_ACACIA_LOG_SLAB = new SlabBlock(FabricBlockSettings.of(
-                    Material.WOOD, MapColor.ORANGE).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+                    Material.WOOD, MapColor.ORANGE).strength(2.0f)
             .sounds(BlockSoundGroup.WOOD));
 
     public static final Block STRIPPED_DARK_OAK_LOG_STAIRS = new MoreLogStairBlock(
-            DARK_OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.BROWN).breakByTool(FabricToolTags.AXES, 0 )
+            DARK_OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.BROWN)
             .strength(2.0f).sounds(BlockSoundGroup.WOOD));
     public static final Block STRIPPED_DARK_OAK_LOG_SLAB = new SlabBlock(FabricBlockSettings.of(
-                    Material.WOOD, MapColor.BROWN).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+                    Material.WOOD, MapColor.BROWN).strength(2.0f)
             .sounds(BlockSoundGroup.WOOD));
 
     public static final Block STRIPPED_CRIMSON_STEM_STAIRS = new MoreLogStairBlock(
-            OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.NETHER_WOOD, MapColor.DULL_PINK).breakByTool(FabricToolTags.AXES, 0 )
+            OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.NETHER_WOOD, MapColor.DULL_PINK)
             .strength(2.0f).sounds(BlockSoundGroup.NETHER_STEM));
     public static final Block STRIPPED_CRIMSON_STEM_SLAB = new SlabBlock(FabricBlockSettings.of(
-                    Material.NETHER_WOOD, MapColor.DULL_PINK).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+                    Material.NETHER_WOOD, MapColor.DULL_PINK).strength(2.0f)
             .sounds(BlockSoundGroup.NETHER_STEM));
 
     public static final Block STRIPPED_WARPED_STEM_STAIRS = new MoreLogStairBlock(
-            OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.NETHER_WOOD, MapColor.DARK_AQUA).breakByTool(FabricToolTags.AXES, 0 )
+            OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.NETHER_WOOD, MapColor.DARK_AQUA)
             .strength(2.0f).sounds(BlockSoundGroup.NETHER_STEM));
     public static final Block STRIPPED_WARPED_STEM_SLAB = new SlabBlock(FabricBlockSettings.of(
-                    Material.NETHER_WOOD, MapColor.DARK_AQUA).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+                    Material.NETHER_WOOD, MapColor.DARK_AQUA).strength(2.0f)
             .sounds(BlockSoundGroup.NETHER_STEM));
 
     // Wood
 
     public static final Block OAK_WOOD_STAIRS = new MoreLogStairBlock(
-            OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.OAK_TAN).breakByTool(FabricToolTags.AXES, 0)
+            OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.OAK_TAN)
             .strength(2.0f).sounds(BlockSoundGroup.WOOD));
     public static final Block OAK_WOOD_SLAB = new SlabBlock(FabricBlockSettings.of(
-                    Material.WOOD, MapColor.OAK_TAN).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+                    Material.WOOD, MapColor.OAK_TAN).strength(2.0f)
             .sounds(BlockSoundGroup.WOOD));
 
     public static final Block SPRUCE_WOOD_STAIRS = new MoreLogStairBlock(
-            SPRUCE_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.SPRUCE_BROWN).breakByTool(FabricToolTags.AXES, 0 )
+            SPRUCE_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.SPRUCE_BROWN)
             .strength(2.0f).sounds(BlockSoundGroup.WOOD));
     public static final Block SPRUCE_WOOD_SLAB = new SlabBlock(FabricBlockSettings.of(
-                    Material.WOOD, MapColor.SPRUCE_BROWN).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+                    Material.WOOD, MapColor.SPRUCE_BROWN).strength(2.0f)
             .sounds(BlockSoundGroup.WOOD));
 
     public static final Block BIRCH_WOOD_STAIRS = new MoreLogStairBlock(
-            BIRCH_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.PALE_YELLOW).breakByTool(FabricToolTags.AXES, 0 )
+            BIRCH_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.PALE_YELLOW)
             .strength(2.0f).sounds(BlockSoundGroup.WOOD));
     public static final Block BIRCH_WOOD_SLAB = new SlabBlock(FabricBlockSettings.of(
-                    Material.WOOD, MapColor.PALE_YELLOW).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+                    Material.WOOD, MapColor.PALE_YELLOW).strength(2.0f)
             .sounds(BlockSoundGroup.WOOD));
 
     public static final Block JUNGLE_WOOD_STAIRS = new MoreLogStairBlock(
-            JUNGLE_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.DIRT_BROWN).breakByTool(FabricToolTags.AXES, 0 ).
+            JUNGLE_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.DIRT_BROWN).
             requiresTool().strength(2.0f).sounds(BlockSoundGroup.WOOD));
     public static final Block JUNGLE_WOOD_SLAB = new SlabBlock(FabricBlockSettings.of(
-                    Material.WOOD, MapColor.DIRT_BROWN).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+                    Material.WOOD, MapColor.DIRT_BROWN).strength(2.0f)
             .sounds(BlockSoundGroup.WOOD));
 
     public static final Block ACACIA_WOOD_STAIRS = new MoreLogStairBlock(
-            ACACIA_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.GRAY).breakByTool(FabricToolTags.AXES, 0 )
+            ACACIA_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.GRAY)
             .strength(2.0f).sounds(BlockSoundGroup.WOOD));
     public static final Block ACACIA_WOOD_SLAB = new SlabBlock(FabricBlockSettings.of(
-                    Material.WOOD, MapColor.GRAY).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+                    Material.WOOD, MapColor.GRAY).strength(2.0f)
             .sounds(BlockSoundGroup.WOOD));
 
     public static final Block DARK_OAK_WOOD_STAIRS = new MoreLogStairBlock(
-            DARK_OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.OAK_TAN).breakByTool(FabricToolTags.AXES, 0 )
+            DARK_OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.OAK_TAN)
             .strength(2.0f).sounds(BlockSoundGroup.WOOD));
     public static final Block DARK_OAK_WOOD_SLAB = new SlabBlock(FabricBlockSettings.of(
-                    Material.WOOD, MapColor.OAK_TAN).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+                    Material.WOOD, MapColor.OAK_TAN).strength(2.0f)
             .sounds(BlockSoundGroup.WOOD));
 
     public static final Block CRIMSON_HYPHAE_STAIRS = new MoreLogStairBlock(
-            OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.NETHER_WOOD, MapColor.DARK_CRIMSON).breakByTool(FabricToolTags.AXES, 0 )
+            OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.NETHER_WOOD, MapColor.DARK_CRIMSON)
             .strength(2.0f).sounds(BlockSoundGroup.NETHER_STEM));
     public static final Block CRIMSON_HYPHAE_SLAB = new SlabBlock(FabricBlockSettings.of(
-                    Material.NETHER_WOOD, MapColor.DARK_CRIMSON).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+                    Material.NETHER_WOOD, MapColor.DARK_CRIMSON).strength(2.0f)
             .sounds(BlockSoundGroup.NETHER_STEM));
 
     public static final Block WARPED_HYPHAE_STAIRS = new MoreLogStairBlock(
-            OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.NETHER_WOOD, MapColor.DARK_DULL_PINK).breakByTool(FabricToolTags.AXES, 0 )
+            OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.NETHER_WOOD, MapColor.DARK_DULL_PINK)
             .strength(2.0f).sounds(BlockSoundGroup.NETHER_STEM));
     public static final Block WARPED_HYPHAE_SLAB = new SlabBlock(FabricBlockSettings.of(
-                    Material.NETHER_WOOD, MapColor.DARK_DULL_PINK).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+                    Material.NETHER_WOOD, MapColor.DARK_DULL_PINK).strength(2.0f)
             .sounds(BlockSoundGroup.NETHER_STEM));
 
     // Stripped Wood
 
     public static final Block STRIPPED_OAK_WOOD_STAIRS = new MoreLogStairBlock(
-            OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.OAK_TAN).breakByTool(FabricToolTags.AXES, 0)
+            OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.OAK_TAN)
             .strength(2.0f).sounds(BlockSoundGroup.WOOD));
     public static final Block STRIPPED_OAK_WOOD_SLAB = new SlabBlock(FabricBlockSettings.of(
-                    Material.WOOD, MapColor.OAK_TAN).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+                    Material.WOOD, MapColor.OAK_TAN).strength(2.0f)
             .sounds(BlockSoundGroup.WOOD));
 
     public static final Block STRIPPED_SPRUCE_WOOD_STAIRS = new MoreLogStairBlock(
-            SPRUCE_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.SPRUCE_BROWN).breakByTool(FabricToolTags.AXES, 0 )
+            SPRUCE_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.SPRUCE_BROWN)
             .strength(2.0f).sounds(BlockSoundGroup.WOOD));
     public static final Block STRIPPED_SPRUCE_WOOD_SLAB = new SlabBlock(FabricBlockSettings.of(
-                    Material.WOOD, MapColor.SPRUCE_BROWN).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+                    Material.WOOD, MapColor.SPRUCE_BROWN).strength(2.0f)
             .sounds(BlockSoundGroup.WOOD));
 
     public static final Block STRIPPED_BIRCH_WOOD_STAIRS = new MoreLogStairBlock(
-            BIRCH_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.PALE_YELLOW).breakByTool(FabricToolTags.AXES, 0 )
+            BIRCH_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.PALE_YELLOW)
             .strength(2.0f).sounds(BlockSoundGroup.WOOD));
     public static final Block STRIPPED_BIRCH_WOOD_SLAB = new SlabBlock(FabricBlockSettings.of(
-                    Material.WOOD, MapColor.PALE_YELLOW).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+                    Material.WOOD, MapColor.PALE_YELLOW).strength(2.0f)
             .sounds(BlockSoundGroup.WOOD));
 
     public static final Block STRIPPED_JUNGLE_WOOD_STAIRS = new MoreLogStairBlock(
-            JUNGLE_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.DIRT_BROWN).breakByTool(FabricToolTags.AXES, 0 ).
+            JUNGLE_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.DIRT_BROWN).
             requiresTool().strength(2.0f).sounds(BlockSoundGroup.WOOD));
     public static final Block STRIPPED_JUNGLE_WOOD_SLAB = new SlabBlock(FabricBlockSettings.of(
-                    Material.WOOD, MapColor.DIRT_BROWN).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+                    Material.WOOD, MapColor.DIRT_BROWN).strength(2.0f)
             .sounds(BlockSoundGroup.WOOD));
 
     public static final Block STRIPPED_ACACIA_WOOD_STAIRS = new MoreLogStairBlock(
-            ACACIA_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.GRAY).breakByTool(FabricToolTags.AXES, 0 )
+            ACACIA_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.GRAY)
             .strength(2.0f).sounds(BlockSoundGroup.WOOD));
     public static final Block STRIPPED_ACACIA_WOOD_SLAB = new SlabBlock(FabricBlockSettings.of(
-                    Material.WOOD, MapColor.GRAY).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+                    Material.WOOD, MapColor.GRAY).strength(2.0f)
             .sounds(BlockSoundGroup.WOOD));
 
     public static final Block STRIPPED_DARK_OAK_WOOD_STAIRS = new MoreLogStairBlock(
-            DARK_OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.OAK_TAN).breakByTool(FabricToolTags.AXES, 0 )
+            DARK_OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD, MapColor.OAK_TAN)
             .strength(2.0f).sounds(BlockSoundGroup.WOOD));
     public static final Block STRIPPED_DARK_OAK_WOOD_SLAB = new SlabBlock(FabricBlockSettings.of(
-                    Material.WOOD, MapColor.OAK_TAN).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+                    Material.WOOD, MapColor.OAK_TAN).strength(2.0f)
             .sounds(BlockSoundGroup.WOOD));
 
     public static final Block STRIPPED_CRIMSON_HYPHAE_STAIRS = new MoreLogStairBlock(
-            OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.NETHER_WOOD, MapColor.DARK_CRIMSON).breakByTool(FabricToolTags.AXES, 0 )
+            OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.NETHER_WOOD, MapColor.DARK_CRIMSON)
             .strength(2.0f).sounds(BlockSoundGroup.NETHER_STEM));
     public static final Block STRIPPED_CRIMSON_HYPHAE_SLAB = new SlabBlock(FabricBlockSettings.of(
-                    Material.NETHER_WOOD, MapColor.DARK_CRIMSON).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+                    Material.NETHER_WOOD, MapColor.DARK_CRIMSON).strength(2.0f)
             .sounds(BlockSoundGroup.NETHER_STEM));
 
     public static final Block STRIPPED_WARPED_HYPHAE_STAIRS = new MoreLogStairBlock(
-            OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.NETHER_WOOD, MapColor.DARK_DULL_PINK).breakByTool(FabricToolTags.AXES, 0 )
+            OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.NETHER_WOOD, MapColor.DARK_DULL_PINK)
             .strength(2.0f).sounds(BlockSoundGroup.NETHER_STEM));
     public static final Block STRIPPED_WARPED_HYPHAE_SLAB = new SlabBlock(FabricBlockSettings.of(
-                    Material.NETHER_WOOD, MapColor.DARK_DULL_PINK).breakByTool(FabricToolTags.AXES, 0).strength(2.0f)
+                    Material.NETHER_WOOD, MapColor.DARK_DULL_PINK).strength(2.0f)
             .sounds(BlockSoundGroup.NETHER_STEM));
 
 
