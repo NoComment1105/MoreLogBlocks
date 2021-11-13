@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "morelogblocks:spruce_wood_slab",
+          "name": "morelogblocks:stripped_spruce_wood_slab",
           "functions": [
             {
               "function": "minecraft:set_count",

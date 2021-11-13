@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "morelogblocks:acacia_wood_stairs",
+          "name": "morelogblocks:stripped_acacia_wood_stairs",
           "functions": [
             {
               "function": "minecraft:set_count",

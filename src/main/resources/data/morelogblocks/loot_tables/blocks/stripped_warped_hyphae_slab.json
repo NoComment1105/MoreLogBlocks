@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "morelogblocks:warped_hyphae_slab",
+          "name": "morelogblocks:stripped_warped_hyphae_slab",
           "functions": [
             {
               "function": "minecraft:set_count",
