@@ -97,11 +97,12 @@ publishing {
 		token = System.getenv('MODRINTH_TOKEN')
 		projectId = 'PtVD7NAO'
 		versionNumber = "More Log Variants ${project.version}"
-		versionName = "[1.17.1] v${project.version}"
+		versionName = "[1.17.1 - 1.18-pre1] v${project.version}"
 		versionType = 'RELEASE'
 		uploadFile = remapJar
 		addGameVersion('1.17')
 		addGameVersion('1.17.1')
+		addGameVersion('1.18-pre1')
 		addLoader('fabric')
 	}
 }
